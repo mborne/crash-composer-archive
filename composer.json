@@ -1,0 +1,10 @@
+{
+    "name": "mborne/crash-composer-archive",
+    "authors": [
+        {
+            "name": "Mickaël BORNE",
+            "email": "mickael.borne@ign.fr"
+        }
+    ],
+    "require": {}
+}

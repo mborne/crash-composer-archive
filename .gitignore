@@ -1,0 +1,7 @@
+/vendor/
+/dist/
+/composer.phar
+
+# bad line :
+/${ctx
+
