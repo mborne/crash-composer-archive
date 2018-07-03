@@ -23,6 +23,15 @@ preg_match('{^/(?=[^\.])\$(ctx(?=$|/)}','/CHANGELOG.md')
 // => preg_match(): Compilation failed: missing ) at offset 24
 ```
 
+## Reproduce
+
+```bash
+git clone https://github.com/mborne/crash-composer-archive
+cd crash-composer-archive
+php composer.phar archive --dir=dist -f tar
+```
+
+
 ## Impact
 
 It stops `satis build` process when there is a problem in a single repository or single tag.
