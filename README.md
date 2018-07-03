@@ -28,7 +28,7 @@ preg_match('{^/(?=[^\.])\$(ctx(?=$|/)}','/CHANGELOG.md')
 ```bash
 git clone https://github.com/mborne/crash-composer-archive
 cd crash-composer-archive
-wget -O composer.phar http://getcomposer.org/installer
+wget -O composer.phar https://getcomposer.org/download/1.6.5/composer.phar
 php composer.phar archive --dir=dist -f tar
 ```
 
